@@ -1,0 +1,31 @@
+p{
+	/*Content*/
+	width: 50%;
+
+	/*Border*/
+	border: 2px solid blue;
+	/*Padding*/
+	padding: 100px;
+	/*Margin*/
+
+
+}
+td{
+	width: 100px;
+	height: 100px;
+}
+td:nth-of-type(2n){
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+td:nth-of-type(2n){
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.firstRow td{
+	border-bottom: 2px solid black;
+}
+.secondRow td{
+	border-bottom: 2px solid black;
+}
